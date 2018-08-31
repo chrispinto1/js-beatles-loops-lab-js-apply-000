@@ -9,6 +9,7 @@ function theBeatlesPlay(musicians, instruments){
   console.log(arr);
   return arr;
 }
+<<<<<<< HEAD
 
 var facts = [
         "He was the last Beatle to learn to drive",
@@ -17,13 +18,19 @@ var facts = [
         "He hated the sound of his own voice"
 ]
 
+=======
+>>>>>>> 3ae6c638b5b019c45d22ed1c9abc9ed4da8bebab
 johnLennonFacts(facts);
 
 function johnLennonFacts(facts){
   var i = 0;
   while(i < facts.length){
+<<<<<<< HEAD
     facts[i] = facts[i] + "!!!";
     i++;
+=======
+    facts.push(" ! ! !");
+>>>>>>> 3ae6c638b5b019c45d22ed1c9abc9ed4da8bebab
   }
   return facts
 }
